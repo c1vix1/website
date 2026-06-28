@@ -8,28 +8,38 @@ body {
 .hidden {
     visibility: hidden;
 }
-
+/* Nav Bar styling */
 ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  border-radius: 15px;
-}
-
-ul.nav li {
-  float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 ul.nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 ul.nav li a:hover {
-  background-color: #111111;
+    background-color: #111111;
+    border-radius: 15px;
+}
+
+ul li a.active {
+    background-color: #d1d1d1;
+    color: black;
+}
+
+ul.nav li a.active:hover {
+    background-color: #b6b6b6;
 }
