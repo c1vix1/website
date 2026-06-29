@@ -3,11 +3,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 510;
     font-style: normal;
-}
+} 
 
 .hidden {
     visibility: hidden;
 }
+
+
 /* Nav Bar styling */
 ul.nav {
     list-style-type: none;
